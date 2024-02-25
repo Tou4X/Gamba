@@ -1,0 +1,27 @@
+#Rolling Loot system
+
+import random
+
+loot = [
+    {'Rarity : Common'},
+    {'Rarity : Uncommon'},
+    {'Rarity : Rare'},
+    {'Rarity : Exotic'}
+]
+
+loot_type = [
+    {'Type : Short_Sword'},
+    {'Type : Long_Sword'},
+    {'Type : Great_Sword'},
+    {'Type : Bow'},
+    {'Type : Recurve_Bow'},
+    {'Type : Great_Bow'},
+    {'Type : Shield'},
+    {'Type : Spear'},
+    {'Type : Guantlets'}
+]
+
+
+print(random.sample(loot, k=1))
+
+# print(random.sample(range(10, 30), 5))
